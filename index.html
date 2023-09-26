@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - João Pedro Mesquita</title>
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+
+    <!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Open+Sans:wght@300;400;700&family=Roboto:wght@100;300;500;700&display=swap" 
+    rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <img class="photo" src="assets/img/my-photo.jpg" alt="minha foto">
+
+            <h1 class="headerTitle">Olá, eu sou João Pedro Mesquita</h1>
+
+            <div class="info">
+                <p class="job">Junior Developer</p>
+                <p class="location">São Lourenço - MG</p>
+                <p class="phone">
+                    <a href="tel:(35) 9 8415-0770">(35) 98415-0770</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:joaopedro4111@gmail.com">joaopedro4111@gmail.com</a>
+                </p>
+            </div>
+        </header>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button"><h2>Skills</h2></button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li class="imgTools">
+                                <img style="max-width: 50px;" src="/assets/img/icons/tools/nodejs.svg" alt="nodejs">
+                            </li>
+                            <li class="imgTools">
+                                <img style="max-width: 50px;" src="/assets/img/icons/tools/js.svg" alt="javascript">
+                            </li>
+                            <li class="imgTools">
+                                <img style="max-width: 50px;" src="/assets/img/icons/tools/git.svg" alt="git">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Ferramentas:</h3>
+                        <ul class="">
+                            <li>Liderança</li>
+                            <li>Boa comunicação</li>
+                            <li>Facilidade de apender novas ferramentas</li>
+                            <li>Organização</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button"><h2>Idiomas</h2></button>
+            <div class="content">
+                <ul class="languages">
+                    <li>Português</li>
+                    <li>Inglês</li>
+                    <li>LIBRAS</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button"><h2>Projects</h2></button>
+            <div class="content">
+                <ul class="projects">
+                    <li>
+                        <h3 class="github title">Criando um App de lembrete</h3>
+                        <a href="https://www.globo.com" target="_blank">www.globo.com</a>
+                    </li>
+                    <li>
+                        <h3 class="github title">Criando um App de lembrete</h3>
+                        <a href="https://www.globo.com" target="_blank">www.globo.com</a>
+                    </li>
+                    <li>
+                        <h3 class="github title">Criando um App de lembrete</h3>
+                        <a href="https://www.globo.com" target="_blank">www.globo.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button"><h2>Experiências Profissioanais</h2></button>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">MULT Tecnologia</h3>
+                        <span class="period">May 2019 - Jun 2020</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, alias reiciendis 
+                            accusantium quia placeat ipsam quibusdam rem cum quisquam amet et inventore cumque laboriosam ex, 
+                            perferendis iste omnis fugiat aperiam!</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+    </div>
+
+<script src="/assets/js/acordeon.js"></script>
+
+</body>
+</html>
