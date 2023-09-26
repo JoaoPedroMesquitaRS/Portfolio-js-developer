@@ -1,0 +1,1 @@
+https://github.com/JoaoPedroMesquitaRS/Portfolio-js-developer/main/assets/data/profile.json
