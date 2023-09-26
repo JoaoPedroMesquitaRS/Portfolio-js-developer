@@ -29,18 +29,18 @@
 <body>
     <div class="main">
         <header class="header">
-            <img class="photo" src="assets/img/my-photo.jpg" alt="minha foto">
+            <img class="photo" id="profile.photo" src="assets/img/my-photo.jpg" alt="foto de perfil">
 
-            <h1 class="headerTitle">Olá, eu sou João Pedro Mesquita</h1>
+            <h1 class="headerTitle">Hi, my name is <span id="profile.name">Loading...</span></h1>
 
             <div class="info">
-                <p class="job">Junior Developer</p>
-                <p class="location">São Lourenço - MG</p>
+                <p class="job" id="profile.job">Loading...</p>
+                <p class="location" id="profile.location">Loading...</p>
                 <p class="phone">
-                    <a href="tel:(35) 9 8415-0770">(35) 98415-0770</a>
+                    <a href="tel:(35) 9 8415-0770" id="profile.phone">Loading...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:joaopedro4111@gmail.com">joaopedro4111@gmail.com</a>
+                    <a href="mailto:joaopedro4111@gmail.com" id="profile.email">Loading...</a>
                 </p>
             </div>
         </header>
@@ -52,27 +52,18 @@
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul>
-                            <li class="imgTools">
-                                <img style="max-width: 50px;" src="/assets/img/icons/tools/nodejs.svg" alt="nodejs">
-                            </li>
-                            <li class="imgTools">
-                                <img style="max-width: 50px;" src="/assets/img/icons/tools/js.svg" alt="javascript">
-                            </li>
-                            <li class="imgTools">
-                                <img style="max-width: 50px;" src="/assets/img/icons/tools/git.svg" alt="git">
-                            </li>
+                        <h3>Hard Skills:</h3>
+                        <ul id="profile.skills.hardSkills">
+                            
                         </ul>
                     </section>
 
                     <section class="personal">
-                        <h3>Ferramentas:</h3>
-                        <ul class="">
-                            <li>Liderança</li>
-                            <li>Boa comunicação</li>
-                            <li>Facilidade de apender novas ferramentas</li>
-                            <li>Organização</li>
+                        <h3>Soft Skills:</h3>
+                        <ul id="profile.skills.softSkills" class="">
+                            <li>loading...</li>
+                            <li>loading...</li>
+                            <li>loading...</li>
                         </ul>
                     </section>
                 </div>
@@ -81,12 +72,12 @@
 
         <section class="acordeon">
 
-            <button class="trigger" type="button"><h2>Idiomas</h2></button>
+            <button class="trigger" type="button"><h2>Languages</h2></button>
             <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Inglês</li>
-                    <li>LIBRAS</li>
+                <ul id="profile.languages" class="languages">
+                    <li>loading</li>
+                    <li>loading</li>
+                    <li>loading</li>
                 </ul>
             </div>
         </section>
@@ -95,35 +86,18 @@
 
             <button class="trigger" type="button"><h2>Projects</h2></button>
             <div class="content">
-                <ul class="projects">
-                    <li>
-                        <h3 class="github title">Criando um App de lembrete</h3>
-                        <a href="https://www.globo.com" target="_blank">www.globo.com</a>
-                    </li>
-                    <li>
-                        <h3 class="github title">Criando um App de lembrete</h3>
-                        <a href="https://www.globo.com" target="_blank">www.globo.com</a>
-                    </li>
-                    <li>
-                        <h3 class="github title">Criando um App de lembrete</h3>
-                        <a href="https://www.globo.com" target="_blank">www.globo.com</a>
-                    </li>
+                <ul id="profile.portfolio" class="projects">
+                    
                 </ul>
             </div>
         </section>
 
         <section class="acordeon">
 
-            <button class="trigger" type="button"><h2>Experiências Profissioanais</h2></button>
+            <button class="trigger" type="button"><h2>Professional Experience</h2></button>
             <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title">MULT Tecnologia</h3>
-                        <span class="period">May 2019 - Jun 2020</span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, alias reiciendis 
-                            accusantium quia placeat ipsam quibusdam rem cum quisquam amet et inventore cumque laboriosam ex, 
-                            perferendis iste omnis fugiat aperiam!</p>
-                    </li>
+                <ul class="experience" id="profile.professionalExperience">
+                    
                 </ul>
             </div>
         </section>
@@ -132,6 +106,8 @@
     </div>
 
 <script src="/assets/js/acordeon.js"></script>
+<script src="/assets/js/api.js"></script>
+<script src="/assets/js/main.js"></script>
 
 </body>
 </html>

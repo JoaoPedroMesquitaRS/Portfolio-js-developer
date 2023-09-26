@@ -9,29 +9,29 @@
       "hardSkills": [
         {
           "name": "Nodejs",
-          "logo": "https://github.com/JoaoPedroMesquitaRS/Portfolio-js-developer/main/assets/img/icons/tools/nodejs.svg"
+          "logo": "https://raw.githubusercontent.com/JoaoPedroMesquitaRS/Portfolio-js-developer/main/assets/img/icons/tools/nodejs.svg"
         },
         {
           "name": "Tailwind CSS",
-          "logo": "https://github.com/JoaoPedroMesquitaRS/Portfolio-js-developer/main/assets/img/icons/tools/tailwind.svg"
+          "logo": "https://raw.githubusercontent.com/JoaoPedroMesquitaRS/Portfolio-js-developer/main/assets/img/icons/tools/tailwind.svg"
         },
         {
           "name": "Vue.js",
-          "logo": "https://github.com/JoaoPedroMesquitaRS/Portfolio-js-developer/main/assets/img/icons/tools/vue-js.svg"
+          "logo": "https://raw.githubusercontent.com/JoaoPedroMesquitaRS/Portfolio-js-developer/main/assets/img/icons/tools/vue-js.svg"
         }
       ],
       "softSkills": [
-        "Empatia",
-        "Liderança",
-        "Trabalho em equipe",
-        "Flexibilidade",
-        "Organização"
+        "Empathy",
+        "Leadership",
+        "Team Work",
+        "Flexibility",
+        "Organization"
       ]
     },
     "languages": [
       "Português BR",
-      "Inglês (intermediário)",
-      "LIBRAS (intermediário)"
+      "Inglês (Intermediate)",
+      "LIBRAS (Intermediate)"
     ],
     "portfolio": [
       {
