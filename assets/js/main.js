@@ -14,8 +14,8 @@ function updateProfileData(profileData){
     location.innerHTML = profileData.location;
     phone.innerHTML = profileData.phone;
     phone.href = `${profileData.phone}`;
-    email.innerHTML = profileData.phone;
-    email.href = `${profileData.phone}`;
+    email.innerHTML = profileData.email;
+    email.href = `${profileData.email}`;
 }
 
 function updateSoftSkills(profileData){
@@ -69,5 +69,4 @@ function updateProfessionalExperience(profileData){
     updateLanguages(profileData);
     updatePortfolio(profileData);
     updateProfessionalExperience(profileData);
-    console.log(profileData);
 })()
