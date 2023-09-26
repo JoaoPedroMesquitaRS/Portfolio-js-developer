@@ -28,7 +28,7 @@
     z-index: 1;
 }
 
-.headerTitle{
+.headerTitle, .headerTitle span{
     text-align: center;
     font-family: 'Neue Machina';
 }
