@@ -4,6 +4,7 @@ function updateProfileData(profileData){
     const name = document.getElementById('profile.name')
     const job = document.getElementById('profile.job')
     const location = document.getElementById('profile.location')
+    const linkedin = document.getElementById('profile.linkedin')
     const phone = document.getElementById('profile.phone')
     const email = document.getElementById('profile.email')
     
@@ -12,6 +13,7 @@ function updateProfileData(profileData){
     name.innerHTML = profileData.name;
     job.innerHTML = profileData.job;
     location.innerHTML = profileData.location;
+    linkedin.innerHTML = profileData.linkedin;
     phone.innerHTML = profileData.phone;
     phone.href = `${profileData.phone}`;
     email.innerHTML = profileData.email;
