@@ -30,42 +30,54 @@
       ]
     },
     "languages": [
-      "Português BR",
-      "Inglês (Intermediate)",
-      "LIBRAS (Intermediate)"
+      "Portuguese BR",
+      "English (Intermediate)",
+      "LIBRAS - Brazilian Sign Language (Intermediate)"
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+        "name": "DIO course for the creation of a Pokedex page.",
         "url": "https://github.com/JoaoPedroMesquitaRS/js-developer-pokedex",
         "github": true
       },
       {
-         "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+         "name": "DIO course for the creation of a Portfolio page.",
         "url": "https://github.com/JoaoPedroMesquitaRS/Portfolio-js-developer",
         "github": true
       },
       {
-        "name": "Página estática com o intuido de imitar a interface do Spotify utilizando Tailwind",
+        "name": "Static page whose goal is to be the Spotify main interface impression using Tailwind.",
         "url": "https://github.com/JoaoPedroMesquitaRS/spotify-clone",
         "github": true
       },
       {
-        "name": "Portal onde é possível criar e gerenciar tickets de tarefas a serem realizadas. ",
+        "name": "A website where is possible to create and manage tickets to be done.",
         "url": "https://github.com/JoaoPedroMesquitaRS/Portal---Ticket",
         "github": true
       }
     ],
     "professionalExperience": [
       {
-        "name": "Analista de Suporte Técnico Nível II / Raimax Internet",
+        "name": "Senior Technical Support Analyst / Raimax Internet",
         "period": "2021 - 2023",
-        "description": "Tive o prazer de trabalhar com uma equipe incrível e juntos termos conseguido desenvolver várias melhorias e ferramentas para a empresa."
+        "description": "I had the pleasure to work with an amazing team and together developed many improvements and tools for the company."
       },
       {
-        "name": "Analista de Suporte Técnico / MULT Tecnologia",
+        "name": "Technical Support Analyst / MULT Tecnologia",
         "period": "2019 - 2020",
-        "description": "Uma oportunidade no qual me fez crescer em sentido profissional e pessoal onde pude desenvolvr várias habilidades."
+        "description": "An opportunity that helped me to develop myself in personal and professional ways and learn more skills."
+      }
+    ],
+    "education" : [
+      {
+        "name": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
+        "area": "Computer Technician",
+        "period": "2016 - 2018"
+      },
+      {
+        "name": "UNINTER - Centro Universitário Internacional",
+        "area": "Systems Analysis and Development",
+        "period": "2023 - present"
       }
     ]
   }
